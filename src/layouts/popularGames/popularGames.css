@@ -2,7 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
   height: auto;
-  padding: 8rem 15rem;
+  padding-top: 7rem !important;
+  padding-bottom: 2rem !important;
+  background-image: url("/logos/fondo-popular-games.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

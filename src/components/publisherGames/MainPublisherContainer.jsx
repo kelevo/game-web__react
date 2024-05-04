@@ -1,12 +1,11 @@
+import { publisherStores } from "../../helpers";
 import { GeneralButton } from "../button/GeneralButton";
+import { ItemPopularStore } from "./ItemPopularStore";
 import "./mainPublisherContainer.css";
 
 export const MainPublisherContainer = () => {
   return (
     <div className="contenedor-general-publisher-games">
-      <p className="contenedor-general-publisher-games__titulo">
-        Publisher stores
-      </p>
       <div className="contenedor-general-publisher-games__information">
 
         <div className="information__section">
@@ -82,7 +81,16 @@ export const MainPublisherContainer = () => {
           </div>
         </div>
 
-
+      </div>
+      <div className="contenedor-general-publisher-games__most-popular">
+        <div className="most-popular__grid">
+          {
+            publisherStores.map( ( store, index ) => (
+              <ItemPopularStore key={ index } title={ store.titulo } img={ store.img } />
+            ))
+          }
+        </div>
+        <GeneralButton texto="See all publisher stores" color="second" />
       </div>
     </div>
   )

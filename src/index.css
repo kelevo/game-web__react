@@ -8,3 +8,7 @@
 #root {
   background-color: var(--dark);
 }
+.layout-general {
+  padding: 0rem 16rem !important;
+  max-width: 100% !important;
+}

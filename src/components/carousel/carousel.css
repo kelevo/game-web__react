@@ -1,36 +1,35 @@
 @import url("../../css/colors.css");
 
 .contenedor-controles {
-  width: 70%;
+  width: 100% !important;
   height: 140px;
   margin-bottom: 6rem;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 .contenedor-controles-arrow {
-  width: 60px;
-  height: 60px;
-  background-color: rgba(116, 96, 96, 0.539);
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(175, 175, 175, 0.539);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .prev-arrow img {
-  width: 80%;
+  width: 40%;
   transform: rotate(90deg);
   margin: 0 !important;
 }
 .next-arrow img {
-  width: 80%;
+  width: 40%;
   transform: rotate(-90deg);
   margin: 0 !important;
 }
 .contenedor-controles__text {
-  max-width: 80%;
-  width: 60%;
-  padding: 0rem 5rem;
+  max-width: 100%;
+  width: 84%;
   color: var(--white);
 }
 .text__texto-complementario {

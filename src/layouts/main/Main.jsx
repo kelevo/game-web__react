@@ -12,7 +12,7 @@ export const Main = () => {
       <MainCarousel>
         <Carousel />
       </MainCarousel>
-      <PopularGames >
+      <PopularGames>
         <GridPopularGames />
       </PopularGames>
       <PublisherGames>

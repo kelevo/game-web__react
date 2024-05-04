@@ -15,28 +15,13 @@
 }
 .grid-popular-games__item:hover {
   z-index: 100;
-  box-shadow: var(--box-shadow-hover);
+  box-shadow: var(--box-shadow-hover), inset 0 0 260px rgba(104, 255, 3, 0.842);
   transform: scale(1.6);
   will-change: transform;
 }
-.grid-popular-games__item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 255, 0, 0);
-  transition: background-color 0.1s ease-in-out;
-}
-.grid-popular-games__item:hover::before {
-  background-color: rgba(0, 255, 0, 0.2);
-}
-
-
 .item__contenedor-interno {
-  width: 100px;
-  height: 100px;
+  width: 8rem;
+  height: 8rem;
 }
 .item__contenedor-interno p {
   color: var(--white);

@@ -1,0 +1,16 @@
+.loading-text {
+  font-size: 2rem;
+  color: var(--white);
+}
+.dots {
+  opacity: 0;
+  animation: blink 2s infinite;
+}
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+}

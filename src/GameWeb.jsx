@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Main } from "./layouts";
+import { Loading, Main } from "./layouts";
 
 export const GameWeb = () => {
 
@@ -16,6 +16,6 @@ export const GameWeb = () => {
   return (
     mostrarContenido
       ? <Main />
-      : <div>Cargando</div>
+      : <Loading />
   )
 }

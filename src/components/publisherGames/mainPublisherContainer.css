@@ -1,13 +1,5 @@
-.contenedor-general-publisher-games__titulo {
-  padding: 3rem 15rem;
-  background-color: var(--dark);
-  color: var(--white);
-  font-size: 1.4rem;
-  font-weight: 500;
-}
 .contenedor-general-publisher-games__information {
-  padding: 6rem 15rem;
-  max-width: 100%;
+  padding: 6rem 0rem;
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -153,7 +145,24 @@
   margin-left: 1rem
 }
 .section__buttons {
-  width: 54%;
+  width: 72%;
   display: flex;
   justify-content: space-between;
+}
+
+/* Most popular */
+.contenedor-general-publisher-games__most-popular {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.most-popular__grid {
+  width: 100% !important;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: 10rem;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }

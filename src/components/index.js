@@ -5,3 +5,4 @@ export * from "./carousel/Carousel";
 export * from "./popularGames/GridPopularGames";
 export * from "./popularGames/ItemGridPopularGames";
 export * from "./publisherGames/MainPublisherContainer"
+export * from "./loading/LoadingText";

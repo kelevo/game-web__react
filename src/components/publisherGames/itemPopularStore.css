@@ -1,0 +1,27 @@
+.item-popular {
+  width: 100%;
+  background-color: var(--gray);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 0rem;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease-in-out;
+}
+.item-popular:hover {
+  box-shadow: 0px 20px 80px rgba(104, 255, 3, 0.623), inset 0 0 260px rgba(104, 255, 3, 0.842);
+  will-change: transform;
+  transform: scale(1.1);
+}
+.item-popular img {
+  width: 8rem;
+  height: auto;
+}
+.item-popular span {
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 600;
+}

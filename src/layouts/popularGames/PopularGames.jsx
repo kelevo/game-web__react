@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const PopularGames = ({ children }) => {
   return (
-    <div className="layout-popular-games">
+    <div className="layout-popular-games layout-general">
       { children }
     </div>
   )
