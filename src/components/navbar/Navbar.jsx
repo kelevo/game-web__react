@@ -1,4 +1,4 @@
-import { GreenButton, LanguajeButton } from "../";
+import { GeneralButton, LanguajeButton } from "../";
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -16,7 +16,7 @@ export const Navbar = () => {
       </section>
       <section className="header__section-header-buttons">
         <LanguajeButton/>
-        <GreenButton texto={"Sign in | Sign up"} />
+        <GeneralButton texto={"Sign in | Sign up"} color="primary" />
       </section>
     </header>
   )

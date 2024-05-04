@@ -1,0 +1,29 @@
+.general-button {
+  height: 38px;
+  border-radius: 50px;
+  color: var(--white);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 180px;
+}
+.general-button__primary:hover {
+  box-shadow: 0 0 20px rgba(4, 255, 0, 0.8);
+}
+.general-button__second:hover {
+  box-shadow: 0 0 20px rgba(146, 146, 146, 0.8);
+}
+
+.general-button__primary {
+  background-image: linear-gradient(to right top, #009706, #1fa610, #32b619, #43c621, #53d629);
+  box-shadow: 0 0 10px rgba(77, 255, 0, 0.5);
+}
+.general-button__second {
+  background-color: rgb(65, 65, 65);
+  box-shadow: 0 0 10px rgba(95, 95, 95, 0.5);
+}

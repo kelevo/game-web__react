@@ -8,17 +8,25 @@
 .contenedor-general-publisher-games__information {
   padding: 6rem 15rem;
   max-width: 100%;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .information__section {
   width: 50%;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+
 .section__name {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;  
+  margin-bottom: 2rem;
 }
 .section__name img {
   width: 6rem;
@@ -41,17 +49,17 @@
 
 .section__groups {
   margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 2rem;
 }
 .groups__item {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 0.6rem;
+  margin-bottom: 2rem;
 }
 .item__container-img {
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -62,6 +70,90 @@
 }
 .groups__item p {
   color: var(--white);
+  font-size: 1rem;
+  margin-left: 1.4rem;
+}
+
+/* Section 2 */
+.section__title-medium { 
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.section__image-logo { 
+  width: 12rem;
+  margin-bottom: 2rem;
+  filter: drop-shadow(2px 2px 8px rgb(128, 241, 23));
+}
+.section__info-game {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.section__info-game span {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300
+}
+.info-game__subtitle {
+  font-size: 1.2rem !important;
+}
+.info-gamee__title div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.info-gamee__title {
+  display: flex;
+}
+.info-gamee__title span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.info-gamee__title img {
+  width: 2rem;
+  height: 2rem;
+}
+.title__register {
+  font-size: 0.8rem !important;
+}
+.section__price {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.section__price span {
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.price__price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.price__price span {
+  color: rgb(255, 196, 0);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.price__discount {
+  width: 2.8rem;
+  height: 1.2rem;
+  background-color: rgb(7, 99, 185);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+  color: white;
+  font-weight: 600;
   font-size: 0.8rem;
-  margin-left: 0.6rem;
+  margin-left: 1rem
+}
+.section__buttons {
+  width: 54%;
+  display: flex;
+  justify-content: space-between;
 }
