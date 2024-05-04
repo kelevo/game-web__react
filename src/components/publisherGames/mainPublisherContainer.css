@@ -1,0 +1,67 @@
+.contenedor-general-publisher-games__titulo {
+  padding: 3rem 15rem;
+  background-color: var(--dark);
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.contenedor-general-publisher-games__information {
+  padding: 6rem 15rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information__section {
+  width: 50%;
+}
+.section__name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;  
+}
+.section__name img {
+  width: 6rem;
+  margin-right: 2rem;
+}
+.name__ranquing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.name__ranquing p {
+  color: var(--white);
+  font-size: 1.4rem;
+}
+.ranquing__stars img {
+  width: 1rem;
+  margin-right: 0.4rem;
+}
+
+.section__groups {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.groups__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.item__container-img {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.item__container-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.groups__item p {
+  color: var(--white);
+  font-size: 0.8rem;
+  margin-left: 0.6rem;
+}

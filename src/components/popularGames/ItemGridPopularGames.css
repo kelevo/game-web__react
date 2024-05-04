@@ -1,0 +1,62 @@
+.grid-popular-games__item {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 14px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+  overflow: hidden;
+}
+.grid-popular-games__item:hover {
+  z-index: 100;
+  box-shadow: var(--box-shadow-hover);
+  transform: scale(1.6);
+  will-change: transform;
+}
+.grid-popular-games__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 255, 0, 0);
+  transition: background-color 0.1s ease-in-out;
+}
+.grid-popular-games__item:hover::before {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+
+.item__contenedor-interno {
+  width: 100px;
+  height: 100px;
+}
+.item__contenedor-interno p {
+  color: var(--white);
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+.contenedor-interno__contenedor-imagen {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 0.6rem;
+}
+.contenedor-interno__contenedor-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-popular-games__item1 {
+  background-image: linear-gradient(to bottom, #07304e70, #07314eab), url("/img/carousel1.webp");
+  
+}

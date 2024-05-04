@@ -1,0 +1,12 @@
+:root {
+  --box-shadow: 0px 0px 24px -5px rgba(0, 0, 0, 0.75);
+  --box-shadow-hover: 0px 1px 10px 2px rgba(77, 255, 0, 0.5);
+  --transition-duration: 0.2s;
+}
+
+.grid-popular-games {
+  display: grid;
+  grid-template-columns: repeat(5, 12rem);
+  grid-template-rows: 12rem 12rem;
+  gap: 1rem;
+}
