@@ -1,0 +1,8 @@
+.grid-hot-deal-market {
+  width: 100% !important;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  /* grid-template-rows: 14rem 14rem 14rem; */
+  gap: 1.4rem;
+  margin-top: 2rem;
+}

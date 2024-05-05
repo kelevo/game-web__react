@@ -126,7 +126,7 @@
   align-items: center;
 }
 .price__price span {
-  color: rgb(255, 196, 0);
+  color: var(--yellow);
   font-size: 1.8rem;
   font-weight: 600;
 }

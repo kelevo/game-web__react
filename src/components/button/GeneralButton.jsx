@@ -1,9 +1,12 @@
 import "./generalButton.css";
 import PropTypes from 'prop-types';
 
-export const GeneralButton = ({ texto, color }) => {
+export const GeneralButton = ({ texto, color, size }) => {
+
+  if ( size === undefined ) { size = "g" }
+
   return (
-    <div className={ `general-button general-button__${ color }` }>
+    <div className={ `general-button general-button__${ color } general-button__${ size }` }>
       { texto }
     </div>
   )
@@ -11,5 +14,6 @@ export const GeneralButton = ({ texto, color }) => {
 
 GeneralButton.propTypes = {
   texto: PropTypes.string.isRequired,
-  color: PropTypes.string.isRequired
+  color: PropTypes.string.isRequired,
+  size: PropTypes.string
 };

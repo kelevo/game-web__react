@@ -1,0 +1,8 @@
+.layout-hot-deals-market {
+  background-image: url("/logos/fondo-hot-sale.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}

@@ -4,5 +4,7 @@ export * from "./languajeButton/LanguajeButton";
 export * from "./carousel/Carousel";
 export * from "./popularGames/GridPopularGames";
 export * from "./popularGames/ItemGridPopularGames";
-export * from "./publisherGames/MainPublisherContainer"
+export * from "./publisherGames/MainPublisherContainer";
 export * from "./loading/LoadingText";
+export * from "./hotDealsMarket/HotDealsMarket";
+export * from "./footer/Footer";
